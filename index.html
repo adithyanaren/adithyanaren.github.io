@@ -12,81 +12,42 @@
       color: #f1f1f1;
       scroll-behavior: smooth;
     }
-    .hero {
-      padding: 80px 20px;
-      text-align: center;
-      animation: fadeIn 1.2s ease-in-out;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: 700;
-    }
-    .hero p {
-      font-size: 1.25rem;
-      margin-bottom: 30px;
-    }
-    .btn-primary {
-      margin-right: 10px;
-    }
+    .hero { padding: 80px 20px; text-align: center; animation: fadeIn 1.2s ease-in-out; }
+    .hero h1 { font-size: 3rem; font-weight: 700; }
+    .hero p { font-size: 1.25rem; margin-bottom: 30px; }
+    .btn-primary { margin-right: 10px; }
     .section-title {
-      font-size: 2rem;
-      font-weight: bold;
-      margin-bottom: 30px;
-      border-bottom: 2px solid #f1f1f1;
-      display: inline-block;
+      font-size: 2rem; font-weight: bold; margin-bottom: 30px;
+      border-bottom: 2px solid #f1f1f1; display: inline-block;
     }
     .project, .skills, .about {
-      background-color: rgba(255, 255, 255, 0.05);
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 25px;
+      background-color: rgba(255,255,255,0.05);
+      border-radius: 10px; padding: 20px; margin-bottom: 25px;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .project:hover, .skills:hover, .about:hover {
-      transform: scale(1.03);
-      box-shadow: 0 0 15px rgba(79, 195, 247, 0.4);
+      transform: scale(1.03); box-shadow: 0 0 15px rgba(79,195,247,0.4);
     }
     .footer {
-      padding: 30px;
-      text-align: center;
-      background: #1a1a1a;
-      font-size: 0.9rem;
-      color: #aaa;
+      padding: 30px; text-align: center; background: #1a1a1a;
+      font-size: 0.9rem; color: #aaa;
     }
-    a {
-      color: #4fc3f7;
-      text-decoration: none;
-    }
-    a:hover {
-      color: #81d4fa;
-      text-decoration: underline;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+    a { color: #4fc3f7; text-decoration: none; }
+    a:hover { color: #81d4fa; text-decoration: underline; }
+    @keyframes fadeIn { from {opacity:0;transform:translateY(-10px);} to {opacity:1;transform:translateY(0);} }
     .skill-badge {
-      display: inline-block;
-      background: #4fc3f7;
-      color: #000;
-      padding: 8px 14px;
-      margin: 6px;
-      border-radius: 20px;
-      font-weight: 600;
-      font-size: 0.95rem;
+      display:inline-block; background:#4fc3f7; color:#000;
+      padding:8px 14px; margin:6px; border-radius:20px;
+      font-weight:600; font-size:0.95rem;
     }
-    .tech-stack {
-      font-size: 0.85rem;
-      margin-top: 10px;
-      color: #ccc;
-      font-style: italic;
-    }
+    .tech-stack { font-size:0.85rem; margin-top:10px; color:#ccc; font-style:italic; }
   </style>
 </head>
+
 <body>
   <div class="hero">
     <h1>Adhithya Narendran Sundar</h1>
-    <p>QA Engineer | Cloud | ML | IoT</p>
+    <p>QA Engineer | Automation | Cloud | API | Performance</p>
     <a href="Adhithya_Resume.pdf" class="btn btn-primary btn-lg" download>Download Resume</a>
     <a href="https://github.com/adithyanaren" class="btn btn-dark btn-lg" target="_blank">View GitHub</a>
   </div>
@@ -95,64 +56,64 @@
 
     <h2 class="section-title">About Me</h2>
     <div class="about">
-      <p>Hello! I'm Adhithya Narendran Sundar, a QA Engineer with a strong background in cloud technologies, machine learning, and IoT systems. My passion lies in building intelligent test frameworks, automating quality assurance for scalable systems, and ensuring performance and reliability across platforms.</p>
-      <p>This portfolio showcases hands-on projects I built using AWS (Lambda, SageMaker, API Gateway), Azure IoT Hub, Prometheus, and CI/CD tools. My experience spans both academic and professional domains, blending real-time ML inference testing, chatbot validation, API testing, and scalable telemetry monitoring.</p>
-      <p>Always learning. Always improving. Driven by curiosity and a passion for clean, testable systems.</p>
+      <p>Hello! I'm Adhithya Narendran Sundar, a QA Engineer specializing in automation, API validation, performance engineering, and cloud-native testing. I build scalable test frameworks using Python, Java, Selenium, Appium, and Rest Assured — integrated within CI/CD pipelines across AWS and Azure environments.</p>
+      <p>This portfolio showcases my work on large-scale QA automation projects including secure payment APIs, ML-driven systems, chatbot validation, and telemetry monitoring. I’m passionate about reliability, data-driven quality, and engineering collaboration to ensure robust, production-ready software.</p>
     </div>
 
     <h2 class="section-title">Skills</h2>
     <div class="skills">
+      <span class="skill-badge">Java</span>
+      <span class="skill-badge">Rest Assured</span>
+      <span class="skill-badge">Python</span>
       <span class="skill-badge">PyTest</span>
       <span class="skill-badge">Selenium</span>
       <span class="skill-badge">Appium</span>
       <span class="skill-badge">JMeter</span>
       <span class="skill-badge">Postman</span>
-      <span class="skill-badge">AWS Lambda</span>
-      <span class="skill-badge">API Gateway</span>
+      <span class="skill-badge">MySQL</span>
+      <span class="skill-badge">AWS</span>
       <span class="skill-badge">Azure IoT Hub</span>
-      <span class="skill-badge">Prometheus</span>
-      <span class="skill-badge">Amazon SageMaker</span>
-      <span class="skill-badge">Streamlit</span>
-      <span class="skill-badge">CI/CD</span>
+      <span class="skill-badge">Jenkins</span>
       <span class="skill-badge">GitHub Actions</span>
+      <span class="skill-badge">Docker</span>
       <span class="skill-badge">CloudWatch</span>
     </div>
-
 
     <h2 class="section-title">Projects</h2>
 
     <div class="project">
-      <h4>Amazon Astro – ML QA for Smart Home Robot</a> <span class="badge bg-primary ms-2">Featured</span></h4>
+      <h4>Amazon Payment Services – Java API Automation & Performance QA</h4>
       <img src="https://img.icons8.com/color/48/000000/amazon.png" alt="Amazon Logo" style="height:28px; margin:8px 0;">
-      <p>Tested image capture and patrolling mode using PyTest and Amazon SageMaker. Automated inference checks and CI/CD validation workflows.</p>
-      <div class="tech-stack">Tools: PyTest, Amazon SageMaker, GitHub Actions</div>
+      <p>Developed Java automation framework using Rest Assured and TestNG for payment APIs covering tokenization, authorization, and refund flows. Integrated MySQL validation, JMeter load testing, and Jenkins CI/CD pipelines.</p>
+      <div class="tech-stack">Tools: Java, Rest Assured, MySQL, JMeter, Jenkins</div>
     </div>
 
     <div class="project">
-      <h4>Amazon Payment Services – Secure API & Cloud Testing</a></h4>
+      <h4>Amazon Astro – ML QA Framework for Home Robot</h4>
       <img src="https://img.icons8.com/color/48/000000/amazon.png" alt="Amazon Logo" style="height:28px; margin:8px 0;">
-      <p>Tested Lambda + API Gateway-powered payment APIs. Performed JMeter load tests, SQS retry logic simulation, and IAM token validation.</p>
-      <div class="tech-stack">Tools: AWS Lambda, API Gateway, JMeter, SQS, Postman</div>
+      <p>Tested object detection, navigation, and image capture modules using PyTest-based ML validation suites. Developed automation for internal annotation tools improving test coverage and data accuracy.</p>
+      <div class="tech-stack">Tools: Python, PyTest, SageMaker, CI/CD</div>
     </div>
 
     <div class="project">
-      <h4>Amazon Chatbot (D2AS) </a></h4>
+      <h4>Amazon D2AS – AI Chatbot Testing & Cloud Monitoring</h4>
       <img src="https://img.icons8.com/color/48/000000/amazon.png" alt="Amazon Logo" style="height:28px; margin:8px 0;">
-      <p>Tested chatbot intents via GraphQL API, secured with IAM. Used Appium for mobile UI, monitored latency with CloudWatch, and built CI workflows.</p>
-      <div class="tech-stack">Tools: Appium, GraphQL, IAM, CloudWatch, CI/CD</div>
+      <p>Built Selenium and Appium automation for cross-device chatbot workflows. Validated NLP response APIs, monitored performance with CloudWatch, and implemented load testing using JMeter.</p>
+      <div class="tech-stack">Tools: Selenium, Appium, PyTest, JMeter, AWS CloudWatch</div>
     </div>
 
     <div class="project">
-      <h4>STEALTH.DESIGN – IoT QA, Azure Telemetry & Prometheus Monitoring</a> <span class="badge bg-success ms-2">Industry Project</span></h4>
+      <h4>STEALTH.DESIGN – Web, Mobile & IoT QA Automation</h4>
       <img src="https://img.icons8.com/fluency/48/azure-1.png" alt="Azure Logo" style="height:28px; margin:8px 0;">
-      <p>Simulated real-time hotel telemetry using Azure IoT Hub and validated delivery to a Streamlit dashboard. Integrated Prometheus to monitor ingestion metrics and configured alerts for API latency and queue depth. Performed JMeter-based performance benchmarking, automated tests with Selenium/Appium, and integrated everything into CI/CD pipelines using Jenkins.</p>
-      <div class="tech-stack">Tools: Azure IoT Hub, Prometheus, Jenkins, Appium, Selenium, JMeter</div>
+      <p>Automated booking and payment test flows using Selenium–PyTest and Appium frameworks. Performed MySQL-based backend validation and JMeter performance benchmarking. Simulated real-time telemetry via Azure IoT Hub to validate dashboard synchronization and alert reliability.</p>
+      <div class="tech-stack">Tools: Selenium, Appium, PyTest, MySQL, Azure IoT Hub, JMeter, Jenkins</div>
     </div>
+
+  </div>
 
   <div class="footer">
     <p>📧 adithya.ak6@gmail.com | <a href="https://www.linkedin.com/in/adhithya0616/" target="_blank">LinkedIn</a></p>
     <p>&copy; 2025 Adhithya Narendran Sundar</p>
-  </div>
   </div>
 </body>
 </html>
